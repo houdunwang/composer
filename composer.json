@@ -1,0 +1,24 @@
+{
+  "name": "houdunwang/composer",
+  "description": "composer",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "后盾人",
+      "email": "2300071698@qq.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "houdunwang/wechat": "^2.0"
+  },
+  "autoload": {
+    "files": [
+      "src/helper.php"
+    ],
+    "psr-4": {
+      "houdunwang\\composer\\": "src"
+    }
+  }
+}
