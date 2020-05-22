@@ -9,7 +9,7 @@
       "email": "2300071698@qq.com"
     }
   ],
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
   "require": {
     "houdunwang/wechat": "^2.0"
   },
